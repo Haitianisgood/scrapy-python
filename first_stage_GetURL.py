@@ -18,8 +18,8 @@ html = str0.find(r'.html')
 print html
 
 #去除多余部分，截取完整html地址
-#href + 6:从href位置开始的第6位置
-#html +5:从html位置开始的第5位置
+#href + 6从href位置开始的第6位置
+#html +5从html位置开始的第5位置
 url = str0[href + 6:html +5]
 print url
 
