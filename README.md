@@ -6,7 +6,9 @@ scrapy write by python
 
 ##新浪博客文章列表特征
 
+```
 <a title=.... href=...  .html>
+```
 
 ##技术要点
 
