@@ -25,9 +25,8 @@ $ python
 ###获取第一页所有文章的URL
 
 
-#扒取文章目录的网址url
-
 ```
+#扒取文章目录的网址url
 list_url = 'http://blog.sina.com.cn/s/articlelist_1191258123_0_1.html'
 #扒取文章目录列表的数
 list_size = 50
