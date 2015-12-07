@@ -16,15 +16,18 @@ scrapy write by python
 * 循环体while
 
 ###字符串函数find
-`$ python
+```
+$ python
  >>> help(str.find)
-`
+````
 ##Advancement_Get_List_Content.py功能
 
 ###获取第一页所有文章的URL
 
-`
+
 #扒取文章目录的网址url
+
+```
 list_url = 'http://blog.sina.com.cn/s/articlelist_1191258123_0_1.html'
 #扒取文章目录列表的数
 list_size = 50
@@ -61,8 +64,8 @@ while title != -1 and href != -1 and html != -1 and i < list_size:
     i = i + 1
 else:
     print 'Find end!'
+```
 
-`
 ###将第一页所有文章下载到本地
 
 ###访问新浪“博文目录”并获取文章列表中各个文章URL
